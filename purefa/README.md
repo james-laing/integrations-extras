@@ -58,6 +58,7 @@ instances:
     tags:
        - env:<env>
        - fa_array_name:<full_fqdn>
+       - host:<full_fqdn>
     headers:
        Authorization: Bearer <api_token>
     min_collection_interval: 120
@@ -66,6 +67,7 @@ instances:
     tags:
        - env:<env>
        - fa_array_name:<full_fqdn>
+       - host:<full_fqdn>
     headers:
        Authorization: Bearer <api_token>
     min_collection_interval: 120
